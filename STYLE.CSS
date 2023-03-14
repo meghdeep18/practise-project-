@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@500&family=Rubik+Bubbles&display=swap');
+
+        
+/* text animation starts */
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'neue-haas-grotesk-display',sans-serif;
+    scroll-behavior: smooth;
+}
+*::selection
+{
+    background-color: #191919;
+    color: #e9e5e5;
+}
+a
+{
+    text-decoration: none;
+    color: #191919;
+}
+
+.container
+{
+    
+    background-color: rgb(fff);
+    height: 90vh;
+    width: 97vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text
+{
+margin-left: 10%;
+height: 200px;
+width: 100%;
+text-align: center;
+background-image: url(assets/stars-star-gazing.gif);
+background-size: 400px 300px;
+font-size: 130px; 
+font-weight: 900;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+
+}
+
+.text::selection
+{
+    background-color: black;
+    color: white;
+    opacity: calc(0.2);
+}
+
+/* animation of text ends here */
+
+/* navbar starts */
+.navbar-brand
+{
+    padding-left: 10%; 
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #fff;
+
+}
+.navbar-brand:hover
+{
+    font-weight: 250 ;
+}
+.navbar
+{
+    background-color: rgb(fff);
+}
+.nav.link
+{
+padding-left: 73%;
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    margin-top: 3%; 
+    margin-left: 65%;    
+}
+.navbar li
+{
+    font-weight: 35px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+}
+.nav-item a:hover
+{
+    opacity: 0.4;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 234, 255);
+}
+li::selection
+{
+background-color: black;
+color: white;
+}
+i:hover
+{
+    color: aqua;
+}
+
+/* navbar ends here  */
+/* homepage ends here */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+ .more
+{
+    background-color:#191919;
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    
+   
+}
+
+.goku
+{
+    background-color: #e9e5e5;
+    position: relative;
+    
+    /* margin-right: 75%; */
+    padding-right: 0%;
+    margin-top: 4%;
+    border-radius: 20px;
+    margin-left: 100Px;
+    width: 55%;
+    height: 43%;
+    align-items: center;
+}
+/* .goku img
+{       
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    height: 130px;
+    opacity: 0.3;
+} */
+
+/* .tools img:hover
+{
+    opacity: 0.7;
+} */
+.resources
+{
+    margin-top: 10%;
+    padding-top:17%;
+    padding-left: 40%;
+    font-size: 30px;
+    align-items: center;
+    /* background-color: orangered; */
+
+   /* z-index: 0;
+   color: #191919b1;
+   padding-left: 30%;
+   font-size: larger;
+   margin-bottom: 30%; */
+}
+.chainsaw
+{
+    background-color: #e9e5e5;
+    position: relative;
+    /* margin-top:4% ; */
+    margin-bottom:100%;
+    border-radius: 25px;
+    /* margin-left: 70%; */
+    margin-right: 4%;
+    width: 33%;
+    float: right;
+    height: 37%;
+    align-items: center;
+    margin-bottom: 60%;
+}
+.chainsaw.hover
+{
+    box-shadow: rgb(252, 252, 252) 0px 4px 12px;
+}
+.Denji
+{
+    color:#191919;
+    padding-top: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+
